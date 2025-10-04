@@ -11,11 +11,11 @@ import (
 	"github.com/xtls/xray-core/core"
 	"github.com/xtls/xray-core/infra/conf"
 
-	"github.com/XrayR-project/XrayR/api"
-	"github.com/XrayR-project/XrayR/api/sspanel"
-	_ "github.com/XrayR-project/XrayR/cmd/distro/all"
-	"github.com/XrayR-project/XrayR/common/mylego"
-	. "github.com/XrayR-project/XrayR/service/controller"
+	"github.com/darwinchow/XrayR/api"
+	"github.com/darwinchow/XrayR/api/sspanel"
+	_ "github.com/darwinchow/XrayR/cmd/distro/all"
+	"github.com/darwinchow/XrayR/common/mylego"
+	. "github.com/darwinchow/XrayR/service/controller"
 )
 
 func TestController(t *testing.T) {
